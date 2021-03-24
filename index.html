@@ -4,158 +4,181 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
    <title>Portfólio</title>
+   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-
+   <!-- CABEÇALHO -->
    <header>
 
-      <!-- CAIXA FOTO DE PERFIL -->
-      <div>
-         <figure>
-            <img src="" alt="Carlos Eduardo">
-            <figcaption>Carlos Eduardo</figcaption>
-         </figure>
+      <div class="container">
+
+         <div class="linha">
+
+            <!-- CAIXA FOTO DE PERFIL -->
+            <div class="coluna coluna-esquerda">
+               <figure>
+                  <img src="./assets/img/avatar1.png" alt="Carlos Eduardo">
+                  <figcaption class="hidden">Carlos Eduardo</figcaption>
+               </figure>
+            </div>
+
+            <!-- INFORMAÇÕES PESSOAIS -->
+            <div class="coluna coluna-direita">
+
+               <h1>Carlos Eduardo</h1>
+               <p>Estudante de TI</p>
+
+               <ul>
+                  <li>
+                     <a href="mailto:cadudrop@hotmail.com">cadudrop@hotmail.com</a>
+                  </li>
+                  <li>
+                     <a href="tel:5521997872205">(21)9 97872205</a>
+                  </li>
+                  <li>
+                     <a href="#">Av. 7 de setembro, 34, Centro</a>
+                  </li>
+               </ul>
+
+            </div>
+
+         </div>
       </div>
 
-      <!-- INFORMAÇÕES PESSOAIS -->
-      <div>
-
-         <h1>Carlos Eduardo</h1>
-         <p>Estudante de TI</p>
-
-         <ul>
-            <li>
-               <a href="mailto:cadudrop@hotmail.com">cadudrop@hotmail.com</a>
-            </li>
-            <li>
-               <a href="tel:5521997872205">(21)9 97872205</a>
-            </li>
-            <li>
-               <a href="#">Av. 7 de setembro, 34, Centro</a>
-            </li>
-         </ul>
-
-      </div>
    </header>
 
    <main>
 
-      <!-- CONTEÚDO LADO ESQUERDO -->
-      <div>
-         <section>
-            <h2>Perfil Profissional</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laborum expedita accusantium tenetur quaerat id reiciendis cum veniam vero enim iste ipsam quos molestias ab soluta nisi voluptate saepe harum?</p>
-         </section>
+      <div class="container">
 
-         <section>
-            <h2>Especialidades</h2>
-            <ul>
-               <li>HTML5</li>
-               <li>CSS3</li>
-               <li>Java Script</li>
-               <li>React Js</li>
-            </ul>
-         </section>
+         <div class="linha">
 
-         <section>
-            <h2>Cursos</h2>
-            <ul>
-               <li>HTML5 - Kenzie</li>
-               <li>CSS 3 - Kenzie</li>
-               <li>Java Script - Kenzie</li>
-               <li>React - Kenzie</li>
-            </ul>
-         </section>
-      </div>
+            <!-- CONTEÚDO LADO ESQUERDO -->
+            <div class="coluna coluna-esquerda">
+               <section>
+                  <h2>Perfil Profissional</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laborum expedita accusantium tenetur quaerat id reiciendis cum veniam vero enim iste ipsam quos molestias ab soluta nisi voluptate saepe harum?</p>
+               </section>
 
-      <!--CONTEÚDO LADO DIREITO -->
-      <div>
+               <section>
+                  <h2>Especialidades</h2>
+                  <ul>
+                     <li>HTML5</li>
+                     <li>CSS3</li>
+                     <li>Java Script</li>
+                     <li>React Js</li>
+                  </ul>
+               </section>
 
-         <section>
-            <h2>Experiências</h2>
-            <ul>
-               <li>
-                  <h3>Facilitador de treinamento</h3>
-                  <strong>Nome da empresa Kenzie Academy - Tempo integral</strong>
-                  <p>Período do empregador. de 2020 - o momento Localidade Rio de Janeiro/RJ</p>
-               </li>
-               <li>
-                  <h3>Facilitador de treinamento</h3>
-                  <strong>Nome da empresa Kenzie Academy - Tempo integral</strong>
-                  <p>Período do empregador. de 2020 - o momento Localidade Rio de Janeiro/RJ</p>
-               </li>
-               <li>
-                  <h3>Facilitador de treinamento</h3>
-                  <strong>Nome da empresa Kenzie Academy - Tempo integral</strong>
-                  <p>Período do empregador. de 2020 - o momento Localidade Rio de Janeiro/RJ</p>
-               </li>
-            </ul>
-         </section>
+               <section>
+                  <h2>Cursos</h2>
+                  <ul>
+                     <li>HTML5 - Kenzie</li>
+                     <li>CSS 3 - Kenzie</li>
+                     <li>Java Script - Kenzie</li>
+                     <li>React - Kenzie</li>
+                  </ul>
+               </section>
+            </div>
 
-         <section>
-            <h2>Formação</h2>
-            <ul>
-               <li>
-                  <h3>Análise e Desenvolvimento de Sistemas <strong>02/02/2020 - 02/02/2020</strong></h3>
-                  <p>FAETERJ-Rio</p>
-               </li>
-               <li>
-                  <h3>Análise e Desenvolvimento de Sistemas <strong>02/02/2020 - 02/02/2020</strong></h3>
-                  <p>FAETERJ-Rio</p>
-               </li>
-            </ul>
-         </section>
+            <!--CONTEÚDO LADO DIREITO -->
+            <div class="coluna coluna-direita">
+
+               <section>
+                  <h2>Experiências</h2>
+                  <ul>
+                     <li>
+                        <h3>Facilitador de treinamento</h3>
+                        <strong>Nome da empresa Kenzie Academy - Tempo integral</strong>
+                        <p>Período do empregador. de 2020 - o momento Localidade Rio de Janeiro/RJ</p>
+                     </li>
+                     <li>
+                        <h3>Facilitador de treinamento</h3>
+                        <strong>Nome da empresa Kenzie Academy - Tempo integral</strong>
+                        <p>Período do empregador. de 2020 - o momento Localidade Rio de Janeiro/RJ</p>
+                     </li>
+                     <li>
+                        <h3>Facilitador de treinamento</h3>
+                        <strong>Nome da empresa Kenzie Academy - Tempo integral</strong>
+                        <p>Período do empregador. de 2020 - o momento Localidade Rio de Janeiro/RJ</p>
+                     </li>
+                  </ul>
+               </section>
+
+               <section>
+                  <h2>Formação</h2>
+                  <ul>
+                     <li>
+                        <h3>Análise e Desenvolvimento de Sistemas <strong>02/02/2020 - 02/02/2020</strong></h3>
+                        <p>FAETERJ-Rio</p>
+                     </li>
+                     <li>
+                        <h3>Análise e Desenvolvimento de Sistemas <strong>02/02/2020 - 02/02/2020</strong></h3>
+                        <p>FAETERJ-Rio</p>
+                     </li>
+                  </ul>
+               </section>
+            </div>
+
+         </div>
       </div>
 
    </main>
 
    <footer>
-      <div>
 
-         <nav>
-            <ul>
-               <li>
-                  <a href="mailto:"></a>
-               </li>
-               <li>
-                  <a href="mailto:"></a>
-               </li>
-               <li>
-                  <a href="mailto:"></a>
-               </li>
-            </ul>
-         </nav>
+         <div class="container">
 
-         <nav>
-            <ul>
-               <li>
-                  <a href="#">
-                     <img src="" alt="">
-                     <p>Linkedin</p>
-                  </a>
-               </li>
-               <li>
-                  <a href="#">
-                     <img src="" alt="">
-                     <p>Github</p>
-                  </a>
-               </li>
-               <li>
-                  <a href="#">
-                     <img src="" alt="">
-                     <p>Instagram</p>
-                  </a>
-               </li>
-               <li>
-                  <a href="#">
-                     <img src="" alt="">
-                     <p>Youtube</p>
-                  </a>
-               </li>
-            </ul>
-         </nav>
-      </div>
+            <nav>
+               <ul class="info-contato">
+                  <li>
+                     <a href="mailto:">cadudrop@hotmail.com</a>
+                  </li>
+                  <li>
+                     <a href="tel:5521999999999">(21)9 9999-9999</a>
+                  </li>
+                  <li>
+                     <a href="#">Av. 7 de setembro, 34, Centro</a>
+                  </li>
+               </ul>
+            </nav>
+
+            <nav>
+               <ul class="redes-sociais">
+                  <li>
+                     <a href="#">
+                        <img src="./assets/img/linkedin.svg" alt="Linkedin">
+                        <p>Linkedin</p>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <img src="./assets/img/github-big-logo.svg" alt="Github">
+                        <p>Github</p>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <img src="./assets/img/facebook-app-symbol.svg" alt="Facebook">
+                        <p>Facebook</p>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <img src="./assets/img/youtube.svg" alt="Youtube">
+                        <p>Youtube</p>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      
+
    </footer>
    
 </body>
