@@ -2,6 +2,8 @@
 
 Site portfólio muito maneiro feito no evento da Kenzie Academy Brasil. 
 
+![](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=online&url=https%3A%2F%2Fcaducoder.github.io%2F)
+
 ### Screenshot
 
 ![](./assets/img/Screenshot_Portfolio.png)
